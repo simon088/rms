@@ -1,0 +1,8 @@
+name: "DIFFUDEM2"
+navbar:
+  title: "DIFFU Demo Web 2"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
