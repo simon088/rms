@@ -1,5 +1,16 @@
 ---
-title: "About This Website"
+title: "Map Demo"
 ---
 
-More about this website.
+```{r, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(widgetframe_self_contained = FALSE)
+```
+
+# Sites
+
+```{r leaflet-01,  echo=FALSE, message=FALSE}
+library(leaflet)
+library(widgetframe)
+l <- leaflet() %>% addTiles() %>% setView(0,0,2)
+frameWidget(l, height = '400')
+```
